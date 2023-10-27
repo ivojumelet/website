@@ -1,0 +1,97 @@
+
+body{
+    background-color: rgb(248, 253, 251);
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 0%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #13601f;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 1.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+    nav img {
+      width: 5vw;
+    }
+
+    .center {
+      display: block;
+      margin-left: 5%;
+      margin-right: 90%;
+      width: 30%;
+    }
+
+h5{
+  font-size: 20px;
+}
+    
+    h1{
+      color: white;
+    }
+    h2{
+      margin-left: 50%;
+      margin-right: 50%;
+    }
+    h3{
+font-size: 40px;
+margin-left: 40%;
+margin-right: 50%;
+    }
+  h4{
+    position: center;
+    font-size: 35px;
+  }
+  h6 {
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 20px;
+  }
+  img{
+    font-size: 25px;
+  }
+  /* Dekstop*/
+nav
+{
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 0%;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #13601f;
+  justify-content: space-between;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 576px)and (max-width: 786px) {
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 0%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #13601f;
+    justify-content: space-between;
+  }
+}
